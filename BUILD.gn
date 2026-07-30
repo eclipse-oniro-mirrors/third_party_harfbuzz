@@ -135,5 +135,6 @@ if (defined(ohos_lite)) {
     public_configs = [ ":harfbuzz_config" ]
     part_name = "harfbuzz"
     subsystem_name = "thirdparty"
+    branch_protector_ret = "pac_ret"
   }
 }
