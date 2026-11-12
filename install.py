@@ -34,7 +34,8 @@ def move_file(src_path, dst_path):
     files = [
         "huawei_harfbuzz.patch",
         "CVE-2026-22693.patch",
-        "backport-harfbuzz-disallow-during-callback.patch"
+        "backport-harfbuzz-disallow-during-callback.patch",
+        "CVE-2026-113679.patch"
     ]
     for file in files:
         src_file = os.path.join(src_path, file)
@@ -57,7 +58,8 @@ def do_patch(target_dir):
     patch_file = [
         "huawei_harfbuzz.patch",
         "CVE-2026-22693.patch",
-        "backport-harfbuzz-disallow-during-callback.patch"
+        "backport-harfbuzz-disallow-during-callback.patch",
+        "CVE-2026-113679.patch"
     ]
 
     for patch in patch_file:
